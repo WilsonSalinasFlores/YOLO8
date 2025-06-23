@@ -83,7 +83,8 @@ if __name__ == "__main__":
 
     # 3. Detección en una imagen (reemplaza 'image.jpg' con tu ruta)
     # Asegúrate de tener un archivo de imagen en la misma carpeta o especifica la ruta completa
-    #run_object_detection(source='images/casa-02.jpg', conf_threshold=0.3)
-    #run_object_detection(source='images/Habitcion.png', conf_threshold=0.3)
+    run_object_detection(source='images/casa-02.jpg', conf_threshold=0.3)
     run_object_detection(source='images/sala_estar.jpg', conf_threshold=0.2)
-    #run_object_detection(source='images/casa-03.jpg', conf_threshold=0.3)
+    run_object_detection(source='images/dormitorio2.jpg', conf_threshold=0.2)
+    run_object_detection(source=0, conf_threshold=0.2)
+    run_object_detection(source='https://youtube.com/shorts/TpVRYsSZuU8?si=WBKnMaBiOCpZnO6h', conf_threshold=0.5)
